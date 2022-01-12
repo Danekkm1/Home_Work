@@ -1,0 +1,73 @@
+1) Посмотреть где я === pwd
+
+2) Создать папку    === mkdir group_26
+
+3) Зайти в папку    === cd group_26
+
+4) Создать 3 папки  === mkdir g_1 g_2 g_3
+
+5) Зайти в любоую папку === cd g_1
+
+6) Создать 5 файлов (3 txt, 2 json) === touch less1.txt 
+                                    === touch less2.txt
+                                    === touch less3.txt
+                                    === touch example_1.json
+                                    === touch example_2.json
+
+7) Создать 3 папки === mkdir f_1 f_2 f_3
+
+8. Вывести список содержимого папки === ls -la
+
+9) + Открыть любой txt файл === vim less1.txt
+
+10) + написать туда что-нибудь, любой текст. === нажать на "I", написать желаемый текст.
+
+11) + сохранить и выйти. === esc+:wq
+
+12) Выйти из папки на уровень выше === cd..
+
+13) переместить любые 2 файла, которые вы создали, в любую другую папку. === mv g_1/less1.txt g_3/less1.txt
+                                                                         === mv g_1/example_1.json g_3/example_1.json               
+
+14) скопировать любые 2 файла, которые вы создали, в любую другую папку. === cp g_1/less2.txt g_3/less2.txt
+                                                                         === cp g_1/example_2.json g3/example_2.json
+15) Найти файл по имени === find -name less1.txt
+
+16) просмотреть содержимое в реальном времени (команда grep) изучите как она работает. === tail -f less.txt
+
+17) вывести несколько первых строк из текстового файла === head -n3 less1.txt
+
+18) вывести несколько последних строк из текстового файла === tail -n4 less1.txt
+
+19) просмотреть содержимое длинного файла (команда less) изучите как она работает. less less1.txt
+
+20) вывести дату и время === date
+
+
+Задание *
+1) Отправить http запрос на сервер.            === curl http://162.55.220.72:5005/terminal-hw-request
+http://162.55.220.72:5005/terminal-hw-request
+2) Написать скрипт который выполнит автоматически пункты 3, 4, 5, 6, 7, 8, 13 
+
+=== 
+touch script1.sh
+vim script1.sh
+
+#!/bin/bash
+cd group_26
+mkdir g_1 g_2 g_3
+cd g_1
+touch less1.txt
+touch less2.txt
+touch less3.txt
+touch example_1.json
+touch example_2.json
+mkdir f_1 f_2 f_3
+ls -la
+cd ..
+mv g_1/less1.txt g_3/less1.txt
+mv g_1/example_1.json g_3/example_1.json
+esc +wq = enter
+./script1.sh
+
+
