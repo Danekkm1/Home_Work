@@ -1,0 +1,26 @@
+1. Ќа локальном репозитории сделать ветки дл€:
+- Postman         === git branch Postman
+- Jmeter          === git branch Jmeter
+- CheckLists	  === git branch Checklists
+- Bag Reports     === git branch Bag_Reports
+- SQL		  === git branch SQL
+- Charles 	  === git branch Charles
+- Mobile testing  === git branch Mobile_testing
+
+2. «апушить все ветки на внешний репозиторий === git push -u origin им€_ветки (и так с каждой,как € пон€л) 
+3. ¬ ветке Bag Reports сделать текстовый документ со структурой баг репорта === git checkout Bag_Reports ===> touch bag_report.txt ===> nano bag_report.txt
+4. «апушить структуру багрепорта на внешний репозиторий === git add bag_report.txt ===> git commit -am "BR" ===> git push
+5. ¬мержить ветку Bag Reports в Main === git checkout main ===> git merge Bag_Reports
+6. «апушить main на внешний репозиторий. === git push -u origin main
+7. ¬ ветке CheckLists набросать структуру чек листа. === git checkout Checklists ===> touch Checklist.txt ===> nano Checklist.txt
+8. «апушить структуру на внешний репозиторий === git add Checklist.txt ===> git commit -am "Checklist" ===> git push
+9. Ќа внешнем репозитории сделать Pull Request ветки CheckLists в main === compare & pull request ===> указать base:main compare:Checklists ===> create pull request ===> merge pull request===> confirm merge
+10. —инхронизировать ¬нешнюю и Ћокальную ветки Main === git checkout main ===> git fetch (сделал дл€ проверки, выполн€ть не об€зательно) ===> git pull
+
+
+
+p.s. удалить ветку в локальном репозитории команда git branch -D им€_ветки
+     создать новую ветку и сразу перепрыгнуть в неЄ git checkout -b им€_ветки
+     посмотреть все ветки git branch
+     git commit -am , a=add, можно использовать такую запись,только если до этого делал команду git add, (с новым файлом не прокатит нужно сначала добавить его под гит)
+     git fetch показывает изменени€ на внешнем репозитроии на данной ветке. 
