@@ -1,6 +1,6 @@
-Создать запросы в Postman.
+Г‘Г®Г§Г¤Г ГІГј Г§Г ГЇГ°Г®Г±Г» Гў Postman.
 
-Protocol: http                     === add a request === выбрать метод get === в URL http://162.55.220.72:5005/get_method === params === в key пишем - name и age в value пишем - str(Даниил) и int(22) === send
+Protocol: http                     === add a request === РІС‹Р±СЂР°С‚СЊ РјРµС‚РѕРґ get === Гў URL http://162.55.220.72:5005/get_method === params === Гў key ГЇГЁГёГҐГ¬ - name ГЁ age Гў value ГЇГЁГёГҐГ¬ - str(Г„Г Г­ГЁГЁГ«) ГЁ int(22) === send
 IP: 162.55.220.72
 Port: 5005
 
@@ -13,14 +13,14 @@ request url params:
 
 response: 
 [
-    “Str”,
-    “Str”
+    вЂњStrвЂќ,
+    вЂњStrвЂќ
 ]
 
 ==================
 
 EP_2
-Method: POST                       === выбрать метод POST === в URL http://162.55.220.72:5005/user_info_3 === body === form-data === name: Даниил age: 22 salary : 1000 === send
+Method: POST                       === ГўГ»ГЎГ°Г ГІГј Г¬ГҐГІГ®Г¤ POST === Гў URL http://162.55.220.72:5005/user_info_3 === body === form-data === name: Г„Г Г­ГЁГЁГ« age: 22 salary : 1000 === send
 EndPoint: /user_info_3
 request form data: 
  name: str
@@ -39,7 +39,7 @@ response:
 
 EP_3
 Method: GET
-EndPoint: /object_info_1          === выбрать метод get === в URL http://162.55.220.72:5005/object_info_1 === params === в key пишем - name , age , weight в value пишем - str(Даниил) int(22) , int(60)  === send       
+EndPoint: /object_info_1          === ГўГ»ГЎГ°Г ГІГј Г¬ГҐГІГ®Г¤ get === Гў URL http://162.55.220.72:5005/object_info_1 === params === Гў key ГЇГЁГёГҐГ¬ - name , age , weight Гў value ГЇГЁГёГҐГ¬ - str(Г„Г Г­ГЁГЁГ«) int(22) , int(60)  === send       
 request url params: 
  name: str
  age: int
@@ -54,7 +54,7 @@ response:
 
 ==================
 
-EP_4 				=== выбрать метод get === в URL http://162.55.220.72:5005/object_info_2 === params === в key пишем - name , age , salary в value пишем - str(Даниил) int(22) , int(1000)  === send       
+EP_4 				=== ГўГ»ГЎГ°Г ГІГј Г¬ГҐГІГ®Г¤ get === Гў URL http://162.55.220.72:5005/object_info_2 === params === Гў key ГЇГЁГёГҐГ¬ - name , age , salary Гў value ГЇГЁГёГҐГ¬ - str(Г„Г Г­ГЁГЁГ«) int(22) , int(1000)  === send       
 Method: GET
 EndPoint: /object_info_2
 request url params: 
@@ -77,7 +77,7 @@ response:
 ==================
 
 EP_5
-Method: GET			=== выбрать метод get === в URL http://162.55.220.72:5005/object_info_3 === params === в key пишем - name , age , salary в value пишем - str(Даниил) int(22) , int(1000)  === send       
+Method: GET			=== ГўГ»ГЎГ°Г ГІГј Г¬ГҐГІГ®Г¤ get === Гў URL http://162.55.220.72:5005/object_info_3 === params === Гў key ГЇГЁГёГҐГ¬ - name , age , salary Гў value ГЇГЁГёГҐГ¬ - str(Г„Г Г­ГЁГЁГ«) int(22) , int(1000)  === send       
 EndPoint: /object_info_3
 request url params: 
  name: str
@@ -100,7 +100,7 @@ response:
 ==================
 
 EP_6
-Method: GET			=== выбрать метод get === в URL http://162.55.220.72:5005/object_info_4 === params === в key пишем - name , age , salary в value пишем - str(Даниил) int(22) , int(1000)  === send 
+Method: GET			=== ГўГ»ГЎГ°Г ГІГј Г¬ГҐГІГ®Г¤ get === Гў URL http://162.55.220.72:5005/object_info_4 === params === Гў key ГЇГЁГёГҐГ¬ - name , age , salary Гў value ГЇГЁГёГҐГ¬ - str(Г„Г Г­ГЁГЁГ«) int(22) , int(1000)  === send 
 EndPoint: /object_info_4
 request url params: 
  name: str
@@ -116,7 +116,7 @@ response:
 ==================
 
 EP_7
-Method: POST			 === выбрать метод POST === в URL http://162.55.220.72:5005/user_info_2 === body === form-data === name: Даниил age: 22 salary : 1000 === send
+Method: POST			 === ГўГ»ГЎГ°Г ГІГј Г¬ГҐГІГ®Г¤ POST === Гў URL http://162.55.220.72:5005/user_info_2 === body === form-data === name: Г„Г Г­ГЁГЁГ« age: 22 salary : 1000 === send
 EndPoint: /user_info_2
 request form data: 
  name: str
